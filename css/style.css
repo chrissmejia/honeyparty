@@ -65,7 +65,8 @@ a {
     list-style-type: none;
     position: relative;
     margin: 0 auto;
-    padding-bottom: 1.1rem;
+    padding-bottom: 1rem;
+    padding-top: 0.6rem;
 }
 
 
@@ -143,7 +144,7 @@ a {
 
 #section-qr {
     background: #f6f6f6;
-    padding: 2rem 0;
+    padding: 2rem 0 0 0;
 }
 
 #section-qr a {
@@ -154,9 +155,6 @@ a {
 #section-qr img {
     width: 100%;
     max-width: 10rem;
-}
-
-#section-qr .row0 {
     margin-bottom: 2rem;
 }
 
@@ -165,4 +163,31 @@ a {
     color: #e9e7d4;
     padding: 0.6rem;
     font-size: 0.9rem;
+}
+
+@media (max-width: 767px) {
+    #section-seminar {
+        text-align: center;
+    }
+    
+    #section-seminar .schedule ul {
+        padding: 0;
+        border-right: 0;
+    }
+
+    #section-seminar .details {
+        margin-top: 3rem;
+    }
+
+    #section-qr h4 {
+        text-align: center !important;
+    }
+    #section-qr img {
+        margin-bottom: 0;
+    }
+    #section-qr a {
+        margin-bottom: 2rem;
+        display: block;
+        text-align: center !important;
+    }
 }
