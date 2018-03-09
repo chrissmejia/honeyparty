@@ -10,14 +10,27 @@ h3 {
 
 h4 {
     font-size: 1.2rem;
-    font-weight: 300;
+    font-weight: 400;
     margin-bottom: 1rem;
+    margin-top: 0.6rem;
+}
+
+a {
+    color: #212529;
 }
 
 .header {
     width: 100%;
     z-index: 9;
     background: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1NiIgaGVpZ2h0PSIxMDAiPgo8cmVjdCB3aWR0aD0iNTYiIGhlaWdodD0iMTAwIiBmaWxsPSIjMTcxNTAyIj48L3JlY3Q+CjxwYXRoIGQ9Ik0yOCA2NkwwIDUwTDAgMTZMMjggMEw1NiAxNkw1NiA1MEwyOCA2NkwyOCAxMDAiIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzQ2M2YwOCIgc3Ryb2tlLXdpZHRoPSIyIj48L3BhdGg+CjxwYXRoIGQ9Ik0yOCAwTDI4IDM0TDAgNTBMMCA4NEwyOCAxMDBMNTYgODRMNTYgNTBMMjggMzQiIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzVhNTMxNSIgc3Ryb2tlLXdpZHRoPSIyIj48L3BhdGg+Cjwvc3ZnPg==");
+}
+
+.header a, .header a:visited {
+    color: #eae6c8;
+}
+
+.header a:hover, .header a:active {
+    color: #b7ad5d;
 }
 
 .header .text {
@@ -133,8 +146,18 @@ h4 {
     padding: 2rem 0;
 }
 
+#section-qr a {
+    color: #3568a7;
+}
+
+
 #section-qr img {
     width: 100%;
+    max-width: 10rem;
+}
+
+#section-qr .row0 {
+    margin-bottom: 2rem;
 }
 
 .footer {
