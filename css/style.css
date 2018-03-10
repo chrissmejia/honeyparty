@@ -67,8 +67,8 @@ a {
     list-style-type: none;
     position: relative;
     margin: 0 auto;
-    padding-bottom: 1rem;
-    padding-top: 1rem;
+    padding-bottom: 0.7rem;
+    padding-top: 0.2rem;
 }
 
 #section-seminar .schedule ul li .mu-single-event {
