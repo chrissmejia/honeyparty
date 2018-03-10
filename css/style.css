@@ -21,7 +21,9 @@ a {
 .header {
     width: 100%;
     z-index: 9;
-    background: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1NiIgaGVpZ2h0PSIxMDAiPgo8cmVjdCB3aWR0aD0iNTYiIGhlaWdodD0iMTAwIiBmaWxsPSIjMTcxNTAyIj48L3JlY3Q+CjxwYXRoIGQ9Ik0yOCA2NkwwIDUwTDAgMTZMMjggMEw1NiAxNkw1NiA1MEwyOCA2NkwyOCAxMDAiIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzhjNTcxMiIgc3Ryb2tlLXdpZHRoPSIyIj48L3BhdGg+CjxwYXRoIGQ9Ik0yOCAwTDI4IDM0TDAgNTBMMCA4NEwyOCAxMDBMNTYgODRMNTYgNTBMMjggMzQiIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzYxNGMwZCIgc3Ryb2tlLXdpZHRoPSIyIj48L3BhdGg+Cjwvc3ZnPg==");}
+    background: url("../img/back.png");
+    border-bottom: #FEC007 0.5rem solid;
+}
 
 .header a,
 .header a:visited {
@@ -66,7 +68,7 @@ a {
     position: relative;
     margin: 0 auto;
     padding-bottom: 1rem;
-    padding-top: 0.6rem;
+    padding-top: 1rem;
 }
 
 #section-seminar .schedule ul li .mu-single-event {
@@ -143,7 +145,12 @@ a {
 
 #section-qr {
     background: #f6f6f6;
-    padding: 2rem 0 0 0;
+    padding: 2rem 0;
+}
+
+#section-qr .logoacademy {
+    max-width: 13rem;
+    margin-top: 3.5rem;
 }
 
 #section-qr a {
@@ -153,7 +160,7 @@ a {
 #section-qr img {
     width: 100%;
     max-width: 10rem;
-    margin-bottom: 2rem;
+    margin: 2rem 0;
 }
 
 .footer {
@@ -176,9 +183,6 @@ a {
     }
     #section-qr h4 {
         text-align: center !important;
-    }
-    #section-qr img {
-        margin-bottom: 0;
     }
     #section-qr a {
         margin-bottom: 2rem;
