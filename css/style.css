@@ -42,6 +42,10 @@ a {
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
 }
 
+#video {
+    margin: 3.4rem 0;
+}
+
 #section-seminar h1 {
     margin: 0 0 1rem 0;
 }
@@ -170,6 +174,12 @@ a {
     font-size: 0.9rem;
 }
 
+@media (max-width: 1200px) {
+    #video {
+        margin: 4.8rem 0;
+    }
+}
+
 @media (max-width: 767px) {
     #section-seminar {
         text-align: center;
@@ -188,5 +198,9 @@ a {
         margin-bottom: 2rem;
         display: block;
         text-align: center !important;
+    }
+
+    .header .text {
+        padding: 0 0 6rem 0;
     }
 }
