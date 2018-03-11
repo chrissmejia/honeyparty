@@ -7,7 +7,6 @@ h3 {
     margin-bottom: 1rem;
 }
 
-
 h4 {
     font-size: 1.2rem;
     font-weight: 400;
@@ -22,14 +21,17 @@ a {
 .header {
     width: 100%;
     z-index: 9;
-    background: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1NiIgaGVpZ2h0PSIxMDAiPgo8cmVjdCB3aWR0aD0iNTYiIGhlaWdodD0iMTAwIiBmaWxsPSIjMTcxNTAyIj48L3JlY3Q+CjxwYXRoIGQ9Ik0yOCA2NkwwIDUwTDAgMTZMMjggMEw1NiAxNkw1NiA1MEwyOCA2NkwyOCAxMDAiIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzQ2M2YwOCIgc3Ryb2tlLXdpZHRoPSIyIj48L3BhdGg+CjxwYXRoIGQ9Ik0yOCAwTDI4IDM0TDAgNTBMMCA4NEwyOCAxMDBMNTYgODRMNTYgNTBMMjggMzQiIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzVhNTMxNSIgc3Ryb2tlLXdpZHRoPSIyIj48L3BhdGg+Cjwvc3ZnPg==");
+    background: url("../img/back.png");
+    border-bottom: #FEC007 0.5rem solid;
 }
 
-.header a, .header a:visited {
+.header a,
+.header a:visited {
     color: #eae6c8;
 }
 
-.header a:hover, .header a:active {
+.header a:hover,
+.header a:active {
     color: #b7ad5d;
 }
 
@@ -65,10 +67,9 @@ a {
     list-style-type: none;
     position: relative;
     margin: 0 auto;
-    padding-bottom: 1rem;
-    padding-top: 0.6rem;
+    padding-bottom: 0.7rem;
+    padding-top: 0.2rem;
 }
-
 
 #section-seminar .schedule ul li .mu-single-event {
     background-color: #fff;
@@ -144,18 +145,22 @@ a {
 
 #section-qr {
     background: #f6f6f6;
-    padding: 2rem 0 0 0;
+    padding: 2rem 0;
+}
+
+#section-qr .logoacademy {
+    max-width: 13rem;
+    margin-top: 3.5rem;
 }
 
 #section-qr a {
     color: #3568a7;
 }
 
-
 #section-qr img {
     width: 100%;
     max-width: 10rem;
-    margin-bottom: 2rem;
+    margin: 2rem 0;
 }
 
 .footer {
@@ -169,21 +174,15 @@ a {
     #section-seminar {
         text-align: center;
     }
-    
     #section-seminar .schedule ul {
         padding: 0;
         border-right: 0;
     }
-
     #section-seminar .details {
         margin-top: 3rem;
     }
-
     #section-qr h4 {
         text-align: center !important;
-    }
-    #section-qr img {
-        margin-bottom: 0;
     }
     #section-qr a {
         margin-bottom: 2rem;
