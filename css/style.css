@@ -148,7 +148,7 @@ a {
 }
 
 #section-qr {
-    background: #f6f6f6;
+    /* background: #f6f6f6; */
     padding: 2rem 0;
 }
 
@@ -157,14 +157,24 @@ a {
     margin-top: 3.5rem;
 }
 
+#section-qr .logowebcaptitals {
+    max-width: 7rem;
+    margin: 1.6rem 0 2rem 0;
+}
+
+#section-qr .logoswiss {
+    margin-top: 2.8rem;
+    max-width: 12rem;
+}
+
 #section-qr a {
     color: #3568a7;
 }
 
 #section-qr img {
     width: 100%;
-    max-width: 10rem;
-    margin: 2rem 0;
+    max-width: 8rem;
+    margin: 2.6rem 0;
 }
 
 .footer {
